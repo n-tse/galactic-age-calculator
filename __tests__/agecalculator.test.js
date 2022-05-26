@@ -42,4 +42,9 @@ describe('AgeCalculator', () => {
     const ageCalculator = new AgeCalculator(75, 100);
     expect(ageCalculator.yearsBeyondExpectancy()).toEqual(25);
   }); 
+
+  test('should correctly calculate the users remaining years of life on Venus', () => {
+    const ageCalculator = new AgeCalculator(25, 100);
+    expect(ageCalculator.venusLifeRemaining()).toEqual(121);
+  });
 });
