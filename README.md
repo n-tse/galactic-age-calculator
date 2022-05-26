@@ -27,7 +27,6 @@ Furthermore, the project can calculate the user's life expectancy, and the numbe
 * _Open your terminal and run the command $ git clone https://github.com/n-tse/galactic-age-calculator.git_
 * _Run the command $ npm install to install necessary packages to run the project_
 * _Run the command $ npm run build_
-* _Run the command $ npm run start_
 * _Run the command $ npm test to check that all tests pass and there is 100% line coverage_
 
 ## Known Bugs
