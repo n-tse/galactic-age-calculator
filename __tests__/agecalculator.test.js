@@ -27,4 +27,9 @@ describe('AgeCalculator', () => {
     const ageCalculator = new AgeCalculator(25, 100);
     expect(ageCalculator.convertJupiterYears()).toEqual(2);
   });
+
+  test('should correctly calculate the users remaining years of life on Mercury', () => {
+    const ageCalculator = new AgeCalculator(25, 100);
+    expect(ageCalculator.mercuryLifeRemaining()).toEqual(312);
+  });
 });
