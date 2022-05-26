@@ -19,6 +19,7 @@ The project contains code that determines a user's age based on a planet's solar
 * A Venus year is .62 Earth years
 * A Mars year is 1.88 Earth years
 * A Jupiter year is 11.86 Earth years
+
 Furthermore, the project can calculate the user's life expectancy, and the number of years the user is expected to have left to live (or, if the user has surpassed their life expectancy, the project will tell the user the number of years they have lived beyond their life expectancy)
 
 ## Setup/Installation Requirements
