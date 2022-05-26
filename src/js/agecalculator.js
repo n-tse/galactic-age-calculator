@@ -32,6 +32,10 @@ export default class AgeCalculator {
     return Math.round((this.lifeExpectancy - this.age) / 1.88);
   }
 
+  jupiterLifeRemaining () {
+    return Math.round((this.lifeExpectancy - this.age) / 11.86);
+  }
+
   yearsBeyondExpectancy () {
     if (this.age > this.lifeExpectancy) {
       return this.age - this.lifeExpectancy;
