@@ -3,4 +3,8 @@ export default class AgeCalculator {
     this.age = age;
     this.lifeExpectancy = lifeExpectancy;
   }
+
+  convertMercuryYears () {
+    
+  }
 }
