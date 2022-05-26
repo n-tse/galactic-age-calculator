@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1653551512873" clover="3.2.0">
+  <project timestamp="1653551512873" name="All files">
+    <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="10" coveredmethods="10" elements="25" coveredelements="25" complexity="0" loc="13" ncloc="13" packages="1" files="1" classes="1"/>
+    <file name="agecalculator.js" path="C:\Users\nicho\Desktop\Epicodus\independent-projects\galactic-age-calculator\src\js\agecalculator.js">
+      <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="10" coveredmethods="10"/>
+      <line num="3" count="11" type="stmt"/>
+      <line num="4" count="11" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="24" count="1" type="stmt"/>
+      <line num="28" count="1" type="stmt"/>
+      <line num="32" count="1" type="stmt"/>
+      <line num="36" count="1" type="stmt"/>
+      <line num="40" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="41" count="1" type="stmt"/>
+      <line num="43" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
