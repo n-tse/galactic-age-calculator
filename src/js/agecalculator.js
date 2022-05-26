@@ -15,4 +15,8 @@ export default class AgeCalculator {
   convertMarsYears () {
     return Math.round(this.age / 1.88);
   }
+
+  convertJupiterYears () {
+    return Math.round(this.age / 11.86);
+  }
 }
