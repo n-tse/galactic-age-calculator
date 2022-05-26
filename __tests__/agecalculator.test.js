@@ -47,4 +47,9 @@ describe('AgeCalculator', () => {
     const ageCalculator = new AgeCalculator(25, 100);
     expect(ageCalculator.venusLifeRemaining()).toEqual(121);
   });
+
+  test('should correctly calculate the users remaining years of life on Mars', () => {
+    const ageCalculator = new AgeCalculator(25, 100);
+    expect(ageCalculator.marsLifeRemaining()).toEqual(40);
+  });
 });
