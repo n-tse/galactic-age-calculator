@@ -27,6 +27,8 @@ export default class AgeCalculator {
   yearsBeyondExpectancy () {
     if (this.age > this.lifeExpectancy) {
       return this.age - this.lifeExpectancy;
+    } else {
+      return this.lifeExpectancy - this.age;
     }
   }
 }
