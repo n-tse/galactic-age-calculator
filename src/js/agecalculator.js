@@ -7,4 +7,8 @@ export default class AgeCalculator {
   convertMercuryYears () {
     return Math.round(this.age / .24);
   }
+
+  convertVenusYears () {
+    return Math.round(this.age / .62);
+  }
 }
