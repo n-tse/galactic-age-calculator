@@ -30,6 +30,6 @@ describe('AgeCalculator', () => {
 
   test('should correctly calculate the users remaining years of life on Mercury', () => {
     const ageCalculator = new AgeCalculator(25, 100);
-    expect(ageCalculator.mercuryLifeRemaining()).toEqual(312);
+    expect(ageCalculator.mercuryLifeRemaining()).toEqual(313);
   });
 });

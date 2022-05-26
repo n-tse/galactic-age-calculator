@@ -19,4 +19,8 @@ export default class AgeCalculator {
   convertJupiterYears () {
     return Math.round(this.age / 11.86);
   }
+
+  mercuryLifeRemaining () {
+    return Math.round((this.lifeExpectancy - this.age) / .24);
+  }
 }
