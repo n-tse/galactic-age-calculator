@@ -11,4 +11,8 @@ export default class AgeCalculator {
   convertVenusYears () {
     return Math.round(this.age / .62);
   }
+
+  convertMarsYears () {
+    return Math.round(this.age / 1.88);
+  }
 }
