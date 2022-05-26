@@ -23,4 +23,10 @@ export default class AgeCalculator {
   mercuryLifeRemaining () {
     return Math.round((this.lifeExpectancy - this.age) / .24);
   }
+
+  yearsBeyondExpectancy () {
+    if (this.age > this.lifeExpectancy) {
+      return this.age - this.lifeExpectancy;
+    }
+  }
 }
