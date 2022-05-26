@@ -37,4 +37,9 @@ describe('AgeCalculator', () => {
     const ageCalculator = new AgeCalculator(125, 100);
     expect(ageCalculator.yearsBeyondExpectancy()).toEqual(25);
   }); 
+
+  test('if the users age has not surpassed the life expectancy, should correctly calculate the number of years the user has left until they reach their life expectancy', () => {
+    const ageCalculator = new AgeCalculator(75, 100);
+    expect(ageCalculator.yearsBeyondExpectancy()).toEqual(25);
+  }); 
 });
