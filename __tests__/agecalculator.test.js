@@ -32,4 +32,9 @@ describe('AgeCalculator', () => {
     const ageCalculator = new AgeCalculator(25, 100);
     expect(ageCalculator.mercuryLifeRemaining()).toEqual(313);
   });
+
+  test('if the users age has surpassed the life expectancy, should correctly calculate the number of years the user has lived past their life expectancy', () => {
+    const ageCalculator = new AgeCalculator(125, 100);
+    expect(ageCalculator.yearsBeyondExpectancy()).toEqual(25);
+  });
 });
