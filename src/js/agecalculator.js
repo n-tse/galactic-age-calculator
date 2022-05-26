@@ -5,6 +5,6 @@ export default class AgeCalculator {
   }
 
   convertMercuryYears () {
-    
+    return Math.round(this.age / .24);
   }
 }
