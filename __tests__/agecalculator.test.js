@@ -22,4 +22,9 @@ describe('AgeCalculator', () => {
     const ageCalculator = new AgeCalculator(25, 100);
     expect(ageCalculator.convertMarsYears()).toEqual(13);
   });
+
+  test('should correctly calculate the users age in Jupiter years', () => {
+    const ageCalculator = new AgeCalculator(25, 100);
+    expect(ageCalculator.convertJupiterYears()).toEqual(2);
+  });
 });
