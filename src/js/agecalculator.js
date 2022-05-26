@@ -24,6 +24,10 @@ export default class AgeCalculator {
     return Math.round((this.lifeExpectancy - this.age) / .24);
   }
 
+  venusLifeRemaining () {
+    return Math.round((this.lifeExpectancy - this.age) / .62);
+  }
+
   yearsBeyondExpectancy () {
     if (this.age > this.lifeExpectancy) {
       return this.age - this.lifeExpectancy;
